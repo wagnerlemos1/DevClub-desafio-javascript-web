@@ -1,0 +1,153 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: #7f36df;
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    margin: 12px auto;
+}
+
+.main {
+    width: 375px;
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+
+}
+
+
+.primeiro {
+    width: 327px;
+    border: 1px solid #BBBBBB;
+    background-color: white;
+    border-radius: 4px;
+    height: 48px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+
+}
+
+.segundo {
+    width: 327px;
+    border: 1px solid #BBBBBB;
+    background-color: white;
+    border-radius: 4px;
+    height: 48px;
+    cursor: pointer;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+
+}
+
+input {
+    width: 327px;
+    border: 1px solid #BBBBBB;
+    background-color: white;
+    border-radius: 4px;
+    height: 48px;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+}
+
+
+
+
+button {
+    background-color: #772FD3;
+    color: white;
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 36px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .7;
+}
+
+
+.section {
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    width: 327px;
+    height: 276px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+
+
+}
+
+.real,
+.moedas {
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+
+}
+
+label {
+    font-weight: 700;
+    font-size: 14px;
+    color: #777777;
+}
+
+.seta {
+    margin: 10px;
+}
+
+.conversor,
+.convertido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+
+}
+
+.valor,
+.valor2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #555555;
+}
